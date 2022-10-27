@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 function ThoughtCard({ thought, handleUpdateThought }) {
     const { id, likes } = thought;
